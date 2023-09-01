@@ -1,0 +1,166 @@
+.about{
+    background-color: #204A69;
+    
+  }
+  .about_info{
+    display: flex;
+    
+  }
+  .info_left{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+    color: gold;
+    padding: 15px 20px;
+    float: left;
+    /* letter-spacing: 2px; */
+    /* word-spacing: 2px ; */
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: bolder;
+    
+    
+  }
+  .info_right{
+    display: flex;
+    
+  }
+  .mainHeading{
+    /* color: white; */
+    text-align: center;
+  }
+  .para{
+    padding: 3pc;
+  }
+  .himimg {
+    margin-top: 84px;
+    border-radius: 50%;
+    width: 208px;
+    border: 9px solid white;
+    height: 212px;
+    background: #204A69;
+    box-shadow: 1px 1px 4px #fff;
+    margin-bottom: 20px;
+  }
+  .heading{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    margin: 8px;
+    margin-bottom: 15px;
+  }
+
+  .education{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    color:white;
+    align-items: center;
+    padding: 5px;
+    width: 40%;
+
+    margin: 2px;
+}
+.two{
+    display: flex;
+    width: 40%;
+
+    margin: 2px;
+    justify-content: center;
+}
+.three{
+    display: flex;
+    width: 40%;
+
+    justify-content: center;
+    margin: 2px;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    color:white;
+    align-items: center;
+    padding: 5px;
+    width: 40%;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+  .Personal_dt{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+
+
+
+
+
+
+
+
+  @media screen and (max-width :768px) {
+    .about_info{
+        flex-direction: column;
+    }
+    .info_left{
+        order : 2;
+        justify-content: center;
+        margin: auto;
+    }
+    .info_right{
+        order: 1;
+        justify-content: center;
+    }
+    .education{
+      display: flex;
+      border: 2px solid black;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .one {
+      order: 1;
+      
+    }
+    .two{
+      order: 2;
+      
+    }
+    .three{
+      order: 4;
+      
+    }
+    .four{
+      order: 3;
+      
+    }
+    .clg{
+      width: 300px;
+    }
+    .info_left{
+      display: block;
+      font-size: 22px;
+      font-weight: 300;
+      width: 100vw;
+      padding: 0px;
+    }
+  }

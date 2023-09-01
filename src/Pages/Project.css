@@ -1,0 +1,127 @@
+
+.main{
+    background-color:#ECC5 ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    /* border: 2px solid red; */
+    margin: 10px;
+    border-radius: 12px;
+    background-color:#ECC5FB;
+    flex-wrap: wrap;
+   
+}
+.box:hover{
+    box-shadow: 3px 8px 4px rgb(169 155 155);
+
+}
+.projectimg{
+    width: 380px;
+    height: 350px;
+    margin: 2px;
+    /* border: 2px solid green; */
+    border-radius: 12px;
+}
+.projectimg:hover{
+    width: 385px;
+    height: 360px;
+}
+.mainheading{
+    text-align: center;
+}
+.gif{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     /* Your desired background color */
+
+}
+.gifimg{
+    width: 400px;
+    height: 400px;
+   border-radius: 25px;
+   margin: 10px;
+ 
+}
+.skillsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sk{
+    height: 600px;
+    width: 600px;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .skillsection{
+        width: 100vw;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .project{
+        align-items: center;        
+        width: 100vw;
+        margin: 11px 11px;
+        
+    }
+    .gifimg{
+        width: 300px;
+        height: 400px;
+       border-radius: 25px;
+       margin: 10px;
+     
+    }
+    .project{
+        
+        width: 320px;
+        margin: 2px;
+
+    }
+    .box{
+        justify-content: space-evenly;
+        width: 300px;
+        margin: 5px;
+    }
+    .main{
+        margin: 0px;
+    }
+    .projectimg{
+        width: 277px;
+    }
+    .projectimg:hover{
+        width: 285px;
+        height: 360px;
+    }
+
+}

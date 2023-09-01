@@ -1,0 +1,98 @@
+/* Update the existing CSS */
+.container{
+    background-color: #E8FFCE;
+}
+.contact {
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the content horizontally */
+
+}
+
+.section1 {
+    flex: 1; /* Take up available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.section2 {
+    flex: 1; /* Take up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    /* border: 2px solid green; */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+.head{
+    color:#85E6C5;
+    font-family: cursive;
+}
+
+.ctc_img {
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.cntct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 1px;
+}
+.lbl{
+    display: flex;
+    color: #85E6C5;
+    font-size: 20px;
+    font-family: cursive;
+}
+.input{
+    width: 240px;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    border: 4px 2px 3px gray;
+    text-align: center;
+    outline: none;
+    color: rgb(57, 194, 87);
+    /* background-color: #85E6C5; */
+}
+.tarea{
+    width: 240px;
+    border-radius: 5px;
+    border: none;
+    height: 100px;
+    border: 4px 2px 3px gray;
+
+    outline: none;
+}
+svg{
+    width: 40px;
+    height: 40px;
+    color: #85E6C5;
+}
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column; /* Stack sections vertically */
+    }
+    
+    .section1, .section2 {
+        border: none; /* Remove borders on small screens */
+    }
+    
+    .ctc_img {
+        width: 100%; /* Make the image span the full width */
+    }
+}
